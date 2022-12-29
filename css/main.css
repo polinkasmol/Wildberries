@@ -1,0 +1,3 @@
+/* Сюда мы будем импортировать css файлы */
+@import "./base/_modules.css";
+@import "./blocks/_modules.css";
