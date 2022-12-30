@@ -137,7 +137,7 @@ const renderCard = (elem, to) => {
 const cardData = () => {
 	toggleSpinner()
 
-	return fetch("https://63a6f19159fd83b1bb3b0670.mockapi.io/cardData")
+	return fetch("https://63adfd3a3e4651691668d930.mockapi.io/clothesImg")
 		.then(response => response.json())
 		.then(data => {
 			toggleSpinner()

@@ -87,11 +87,11 @@
 }
 
 .cards__discount-percent {
-    color: #cb11ab;
+    color: #e803c2;
+    background-color: white;
     font-size: 35px;
     line-height: 20px;
-    background-color: #fdeef9;
-    font-weight: 700;
+    font-weight: 500;
     max-width: 80%;
     border-radius: 20px;
     align-self: flex-end;

@@ -22,7 +22,7 @@ header__searchInput.classList.add('searchInput')
 
 
 
-// Корзина
+// bascket
 const fieldOverlay = createElem("div", {
 	className: "fieldOverlay",
 }, header)
@@ -96,7 +96,7 @@ header__container.appendChild(header__container_nav)
 header.appendChild(headerContainer)
 headerContainer.appendChild(header__container)
 
-// Поиск
+// serch
 
 const searchBtn = createElem("div", {
 	className: "header__search-btn",
@@ -116,7 +116,7 @@ header__searchInput.addEventListener('keydown', (e) => {
     }
 });
 
-// Очистка
+// delit
 
 header__searchInput.addEventListener('input', (e) => {
 	if (e.target.value !== "") {
@@ -131,7 +131,7 @@ searchClear.addEventListener("click", () => {
 	searchClear.style.display = "none"
 })
 
-// Адаптив
+// addaptive
 
 searchAdaptebleBtn.addEventListener("click", () => {
 	searchContainer.style.display = "block"

@@ -1,4 +1,4 @@
-/* Первый спиннер */
+/* first spiner */
 
 .spinner {
     position: fixed;
@@ -91,7 +91,7 @@
     }
 }
 
-/* Второй спиннер */
+/* second spiner */
 
 .spinner-two {
     position: absolute;

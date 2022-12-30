@@ -5,7 +5,7 @@ import { basketWrapper, basketCounter, counterCheck } from "./header.js";
 
 const header = document.getElementById("header")
 
-// функция пересчета скидки
+// recalculation of the discount
 export const discountRecalc = () => {
 	let discountTotal = basketData.reduce(function (sum, elem) {
 		return sum + (elem.price * (elem.discount / 100));
@@ -46,7 +46,7 @@ const deleteAllBasket = createBtn("Очистить корзину", "deleteAllB
 	counterCheck()
 })
 
-// наполнение wrapper корзины
+// basket wrapper
 export const itemWrapper = createElem("div", {
 	className: "itemWrapper",
 }, basketWrapper)
